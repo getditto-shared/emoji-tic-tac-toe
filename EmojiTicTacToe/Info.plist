@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Bluetooth and network permissions for Ditto P2P mesh -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Emoji Tic-Tac-Toe uses Bluetooth to find nearby players and sync the game board in real time.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Emoji Tic-Tac-Toe uses Bluetooth to connect with nearby players.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Emoji Tic-Tac-Toe uses your local network to find and sync with nearby players.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_http-alt._tcp.</string>
+	</array>
+</dict>
+</plist>
